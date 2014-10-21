@@ -2,5 +2,7 @@
 
 puts "What is your name?"
 name = gets.chomp
+puts "How old are you?"
+age = gets.chomp
 
-puts "Hi #{name}"
+puts "Hi #{name}, you are #{age}"
